@@ -1,0 +1,19 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Lali"
+  description: "Portafolio de Citlali Montserrat Alvarado, estudiante de Ingeniería en Tecnologías de la Información e Innovación Digital."
+  navbar: false
+
+format:
+  html:
+    theme: none
+    css: styles.css
+    page-layout: full
+    toc: false
+    title-block-banner: false
+
+execute:
+  freeze: auto

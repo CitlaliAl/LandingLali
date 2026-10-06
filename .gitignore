@@ -1,0 +1,5 @@
+/.quarto/
+/.quarto-ci/
+/_site/
+/node_modules/
+/preview.html
