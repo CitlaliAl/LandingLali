@@ -17,3 +17,25 @@
 @media(max-width:470px){.cert-badge{width:58px;height:58px}}
 .social-grid a{grid-template-columns:30px minmax(0,1fr);column-gap:9px;padding-left:13px;padding-right:28px}.social-grid .social-icon{width:19px;height:19px;grid-row:1 / span 2;align-self:center;justify-self:center}.social-grid a span,.social-grid a small{min-width:0;overflow-wrap:anywhere}.social-grid a span{line-height:1.3}.social-grid a small{line-height:1.35}
 @media(max-width:470px){.social-grid a{grid-template-columns:25px minmax(0,1fr);column-gap:6px;padding-left:8px;padding-right:23px}.social-grid .social-icon{width:17px;height:17px}}
+@media(max-width:720px){.portfolio{width:calc(100% - 40px);max-width:620px}.project-card{grid-template-columns:minmax(145px,.85fr) minmax(0,1.15fr)}.project-card:nth-child(2) .project-preview{min-height:230px}.project-card:nth-child(2) .project-image{height:215px}}
+@media(max-width:470px){.portfolio{width:calc(100% - 24px);max-width:none}.project-card{grid-template-columns:minmax(105px,.78fr) minmax(0,1.22fr);gap:8px;padding:8px}.project-card:nth-child(2) .project-preview{min-height:200px}.project-card:nth-child(2) .project-image{height:188px;width:auto;max-width:100%}.project-copy h3{font-size:13px}.project-copy>p:not(.project-index){font-size:7px;line-height:1.4}.project-copy .project-index{font-size:5px}.project-copy .tag-row{margin:5px 0}.project-copy .tag-row span{font-size:5px;padding:3px 5px}}
+@media(max-width:470px){
+  .skills-grid{grid-template-columns:repeat(2,minmax(0,1fr));align-items:stretch}
+  .skill-card{min-width:0;padding:10px}
+  .skill-card:nth-child(3){grid-column:1/-1}
+  .skill-card:nth-child(3) ul{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:14px}
+  .skill-card li{font-size:8px;line-height:1.35;padding:6px 0}
+  .learning-card{grid-template-columns:1fr;row-gap:6px}
+  .learning-card h3{grid-column:1}
+  .radar{width:min(100%,250px);max-width:250px;height:132px;margin:6px auto}
+  .radar:before{width:86px;height:86px}
+  .radar span{font-size:7px;white-space:nowrap}
+  .radar span:nth-child(1){left:50%;top:0;transform:translateX(-50%)}
+  .radar span:nth-child(2){right:0;top:48px}
+  .radar span:nth-child(3){right:17px;bottom:0}
+  .radar span:nth-child(4){left:17px;bottom:0}
+  .radar span:nth-child(5){left:0;top:48px}
+  .learning-note{font-size:10px;line-height:1.5;text-align:center}
+  .learning-note br{display:none}
+  .learning-note i{display:inline}
+}
